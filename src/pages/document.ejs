@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Your App</title>
+  </head>
+  <!-- Polyfills bundle. -->
+  <script
+    src="<%= context.config.publicPath %>./web3/src/polyfills.bundle.js"
+    charset="utf-8"
+  ></script>
+  <!-- SystemJS support. -->
+  <script
+    src="<%= context.config.publicPath %>./web3/src/system.bundle.js"
+    charset="utf-8"
+  ></script>
+
+  <script
+    src="<%= context.config.publicPath %>./web3/src/ammo-instantiated-07963f79js"
+    type="systemjs-importmap"
+    charset="utf-8"
+  ></script>
+
+  <script
+    src="<%= context.config.publicPath %>./web3/src/import-map.json"
+    type="systemjs-importmap"
+    charset="utf-8"
+  ></script>
+
+  <body>
+    <div id="root"></div>
+  </body>
+
+  <script>
+    console.log('index.html0000');
+  </script>
+</html>

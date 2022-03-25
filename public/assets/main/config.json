@@ -1,0 +1,20 @@
+{
+  "importBase": "import",
+  "nativeBase": "native",
+  "name": "main",
+  "deps": [],
+  "uuids": [
+    "12Y9dMgWdJKJGmTiZyQR9H@801ec",
+    "1brw/JvvpFnIvdrxpFCgMZ",
+    "d3x4IMKphEKYvHuEU7yaxB",
+    "f7zfBppZBDR6YUXXt6RYqp",
+    "fdjsU2o1RKF5x0TziDw3jI"
+  ],
+  "paths": { "4": ["db:/internal/default_renderpipeline/builtin-forward", 0] },
+  "scenes": { "db://assets/scenes/main.scene": 3 },
+  "packs": {},
+  "versions": { "import": [], "native": [] },
+  "redirect": [],
+  "debug": false,
+  "types": ["cc.RenderPipeline"]
+}
